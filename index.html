@@ -1822,11 +1822,11 @@ a{
               <div class="subnumber d-flex justify-content-between">
                 <input type="text" name="subject" id="subject" placeholder="Subject" required>
 
-                <input type="text" name="number" id="number" placeholder="Phone Number(Optional)">
+               <input type="tel" name="phone" id="phone" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
 
               </div>
 
-              <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+              <textarea name="message" id="comment" cols="30" rows="10" placeholder="Your Message..." required></textarea>
 
               <button class="btn btn-warning" type="submit">Submit <i class="fas fa-paper-plane ml-2"></i> </button>
             </form>
